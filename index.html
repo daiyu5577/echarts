@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<!-- cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.common.js"></script>
+<!-- 引入 vintage 主题 -->
+<script src="./theme/macarons.js"></script>
+<!-- 引入dark主题 -->
+<script src="./theme/dark.js"></script>
+<!-- 饼图数据 -->
+<script src="./echarts/pie.js"></script>
+
+<body>
+    <!-- 圆饼容器 -->
+    <div id="pie" style="width: 600px;height:400px;"></div>
+</body>
+
+<script>
+    // 获取容器
+    // 可选主题 'dark'、'dark'
+    var myChart = echarts.init(document.getElementById('pie'), 'dark');
+    myChart.setOption(option);
+</script>
+
+</html>
