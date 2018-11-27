@@ -40,7 +40,5 @@ function hello(res, req, urls) {
     req.end('请输入 http://localhost:3000/echarts/index.html')
 }
 
-// 看我提交代码 提交成功 你来一遍  我上回说的是用vscode提交不了  用git命令可以提交.
-// 我来演示下
 
 server.listen(3000)

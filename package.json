@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "supervisor app.js"
+    "dev": "supervisor app.js",
+    "nodemon": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^1.18.7",
     "supervisor": "^0.12.0"
   }
 }
